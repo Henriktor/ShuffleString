@@ -38,17 +38,4 @@ function sAve() {
      contentType: "application/json",
      data: x
    })
-}
-
-/*function saveSlot() {
-
-  this.entry = entry //actual string or array from fisher-yates
-  this.date = date 
-
-  this.demo = function() {
-
-    console.log("hej " + this.entry)
-  }
-
-}
-*/
+};
