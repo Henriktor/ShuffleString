@@ -1,8 +1,8 @@
 function inputter() { // get text input from user 
 
   var x = document.getElementById("myText").value;
-  var arr = x.s
-plit(' '); // splits user input
+
+  var arr = x.split(' '); // splits user input
 
   arr = shuffle(arr); //calls shuffle function on split array...
 
@@ -18,7 +18,7 @@ function shuffle(arr) {
 
   // While there remain elements to shuffle…
   while (n) {
-
+    
     // Pick a remaining element…
     i = Math.floor(Math.random() * n--);
 
@@ -31,11 +31,24 @@ function shuffle(arr) {
 
 function sAve() {
    var x = document.getElementById("out").innerText
-   console.log("nu ska den spara",out)
+   console.log("nu ska den spara")
    $.ajax ({
-     url: "/echo/json/",
+     url: "/",
      method: "POST",
      contentType: "application/json",
      data: x
    })
-};
+}
+
+/*function saveSlot() {
+
+  this.entry = entry //actual string or array from fisher-yates
+  this.date = date 
+
+  this.demo = function() {
+
+    console.log("hej " + this.entry)
+  }
+
+}
+*/

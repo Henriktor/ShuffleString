@@ -1,0 +1,26 @@
+{
+  "name": "shufstring",
+  "version": "1.0.0",
+  "description": "Type or paste and shuffle it. Simple implementation of Fisher-Yates shuffle.  Will make this more of module later on.",
+  "main": "input.js",
+  "scripts": {
+    "start": "budo input.js:bundle.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henriktor/ShuffleString.git"
+  },
+  "keywords": [
+    "testing",
+    "stuff"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henriktor/ShuffleString/issues"
+  },
+  "homepage": "https://github.com/Henriktor/ShuffleString#readme",
+  "devDependencies": {
+    "budo": "^11.6.1"
+  }
+}
