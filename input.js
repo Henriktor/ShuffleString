@@ -40,15 +40,9 @@ function sAve() {
    })
 }
 
-/*function saveSlot() {
+function formSaved() { 
+ 
+    console.log("jag fungerar")
+ a
 
-  this.entry = entry //actual string or array from fisher-yates
-  this.date = date 
-
-  this.demo = function() {
-
-    console.log("hej " + this.entry)
-  }
-
-}
-*/
+};
