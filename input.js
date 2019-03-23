@@ -38,7 +38,14 @@ function sAve() {
      contentType: "application/json",
      data: x
    })
-}
+   return x; // s kanske man inte kan göra 
+};
+// some function for feching data maybe
+function formGet() {
+  document.getElementById("out")
+  console.log("jag fungerar" + out.length)
+};
+
 
 /*function saveSlot() {
 
