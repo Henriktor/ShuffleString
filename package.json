@@ -22,5 +22,8 @@
   "homepage": "https://github.com/Henriktor/ShuffleString#readme",
   "devDependencies": {
     "budo": "^11.6.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
